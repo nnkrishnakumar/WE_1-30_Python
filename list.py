@@ -188,3 +188,20 @@ print(a)
 a=[1,2,3,4,5]
 a.remove(2)
 print(a)
+
+# reverse()
+
+a=[1,2,3,4,5]
+print(a.reverse())  # None
+print(a)      #[5, 4, 3, 2, 1]
+
+#sort()
+d=[2,3,2,1,4,5]
+print(d.sort())
+print(d)    #[1, 2, 2, 3, 4, 5]
+
+d.sort(reverse=False)
+print(d)   #[1, 2, 2, 3, 4, 5]
+
+d.sort(reverse=True)
+print(d)   #[5, 4, 3, 2, 2, 1]
